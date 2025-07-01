@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic Web Page</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="greeting">Welcome!</h1>
+      <button id="toggleTheme">Switch Theme</button>
+    </header>
+
+    <main>
+      <section>
+        <h2>Personalized Greeting</h2>
+        <form id="nameForm">
+          <label for="nameInput">Enter your name:</label>
+          <input type="text" id="nameInput" placeholder="Your name" required />
+          <button type="submit">Submit</button>
+        </form>
+        <p id="personalGreeting"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 DynamicWeb Inc.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
